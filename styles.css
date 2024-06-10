@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header & Navbar */
+a{
+    font-weight: Bold;
+}
+.navbar-brand{
+    color: #0073e6;
+}
+@media (min-width: 992px) {
+    .navbar-nav {
+        border: 1px solid #0073e6; /* Ganti warna dan ketebalan sesuai kebutuhan */
+        border-radius: 20px; /* Opsional: menambahkan radius pada border */
+    }
+}
+.navbar-nav .nav-link 
+{   color: black; 
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color:#0073e6;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.intro h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.intro h2 {
+    color: #0073e6;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5em;
+}
+
+.intro .highlight {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+}
+/* About Me */
+#about {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+#about h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.img-thumbnail {
+    max-width: 150px;
+}
+.ms-3 {
+    padding: 15px; /* Menambahkan padding di dalam kontainer */
+    background-color: #f8f9fa; /* Memberikan warna latar belakang */
+    border-radius: 5px; /* Membuat sudut kontainer melengkung */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan lembut */
+    border: 1px solid #dee2e6; /* Memberikan border ringan */
+    margin: 0; /* Menghapus margin default */
+    font-size: 1rem; /* Mengatur ukuran font */
+    line-height: 1.5; /* Mengatur tinggi baris untuk keterbacaan */
+}
+
+
+
+/* education */
+h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+/* Services */
+.services {
+    padding: 60px 0;
+}
+.services .icon {
+    margin-bottom: 20px;
+}
+.services .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.services .card:hover {
+    transform: translateY(-10px);
+}
+.card-body img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.card-text{
+    color: black;
+    font-weight: none;
+}
+.service-icon {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+/* Contact */
+.row{
+    padding: 3px;
+}
+.text-center{
+    font-weight: bold;
+    color:  #007bff;
+}
+.contact-left, .contact-right {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+.btn3 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn3:hover {
+    background-color: #0056b3;
+}
+.copyright {
+    text-align: center;
+    padding: 20px 0;
+    background: #f8f9fa;
+    margin-top: 20px;
+}
